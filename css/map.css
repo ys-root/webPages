@@ -38,6 +38,7 @@ body,html{
     font-size: 16px; /* 字体大小 */
     cursor: pointer; /* 鼠标悬停时显示手型 */
     transition: background 0.3s; /* 渐变动画效果 */
+    margin-bottom: 20px;
 }
 
 .direction .label div button:hover {
