@@ -6,31 +6,6 @@ body {
     height: 100dvh;
 }
 
-.nav_links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav_links a {
-    text-decoration: none;
-    color: #34495e;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.nav_links a:hover {
-    color: rgb(203, 64, 66);
-    font-size: 25px;
-}
-
-.search-box {
-    padding: 8px 15px;
-    border: 1px solid #bdc3c7;
-    border-radius: 20px;
-    width: 200px;
-    background: none;
-    margin-right: 2%;
-}
 
 .top_nav .main img{
     width: 40px;
