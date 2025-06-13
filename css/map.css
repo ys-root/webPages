@@ -36,7 +36,7 @@ body,html{
     padding: 10px 20px; /* 按钮内边距 */
     border: none; /* 去掉默认边框 */
     border-radius: 20px; /* 圆角 */
-    background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet); /* 渐变背景 */
+    background: linear-gradient(to bottom, #FEAC5E, #C779D0, #4BC0C8); /* 渐变背景 */
     color: white; /* 文字颜色 */
     font-size: 16px; /* 字体大小 */
     cursor: pointer; /* 鼠标悬停时显示手型 */
@@ -44,7 +44,7 @@ body,html{
 }
 
 .direction .label div button:hover {
-    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet); /* 鼠标悬停时的渐变方向 */
+    background: linear-gradient(to top, #FEAC5E, #C779D0, #4BC0C8); /* 鼠标悬停时的渐变方向 */
 }
 
 
