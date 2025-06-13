@@ -38,13 +38,12 @@ body,html{
 
 .direction .lable li div{
     text-decoration: none;
-    background: linear-gradient(
+    border: 2px solid transparent;
+    border-image: linear-gradient(
         to right,
         #70e1f5,
         #ffd194
     );
-    background-clip: border-box;
-    border: 2px solid transparent;
 
 }
 
