@@ -26,16 +26,3 @@ body,html{
     flex-direction: column;
 }
 
-.direction .label div{
-    border: 2px solid transparent;
-    background: linear-gradient(
-        to right,
-        #c9ffbf,
-        #ffafbd
-    );
-    background-clip: border-box;
-}
-
-.direction .label div a{
-    color: #c9ffbf;
-}
