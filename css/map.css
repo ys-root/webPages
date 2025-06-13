@@ -47,3 +47,13 @@ body,html{
     border: 2px solid transparent;
 
 }
+
+.direction .lable p{
+    background: linear-gradient(
+        to right,
+        #70e1f5,
+        #ffd194
+    );
+    background-clip: text;
+    color: transparent;
+}
