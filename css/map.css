@@ -27,6 +27,27 @@ body,html{
     margin: 40px auto;
 }
 
+.direction .label div button{
+    background:;
+    border-radius: 5%;
+} 
+
+.direction .label div button{
+    padding: 10px 20px; /* 按钮内边距 */
+    border: none; /* 去掉默认边框 */
+    border-radius: 20px; /* 圆角 */
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet); /* 渐变背景 */
+    color: white; /* 文字颜色 */
+    font-size: 16px; /* 字体大小 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+    transition: background 0.3s; /* 渐变动画效果 */
+}
+
+.direction .label div button:hover {
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet); /* 鼠标悬停时的渐变方向 */
+}
+
+
 .profile{
     display: flex;
     justify-content: center;
