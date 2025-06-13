@@ -47,6 +47,15 @@ body,html{
     background: linear-gradient(to top, #FEAC5E, #C779D0, #4BC0C8); /* 鼠标悬停时的渐变方向 */
 }
 
+.direction .map{
+    margin-left: 15px;
+}
+
+.direction .map img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
 
 .profile{
     display: flex;
