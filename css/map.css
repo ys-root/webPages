@@ -42,6 +42,11 @@ body,html{
     background: linear-gradient(to top, #FEAC5E, #C779D0, #4BC0C8); /* 鼠标悬停时的渐变方向 */
 }
 
+.direction .label div button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .direction .map{
     max-width: 60%;
     margin-left: 15px;
