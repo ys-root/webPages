@@ -13,7 +13,7 @@
     background: none;
 }
 
-.top_nav .top_nav_content {
+#top_nav .top_nav_content {
     height: 100%;
     width: calc(100% -20%);
     margin-left: 10%;
@@ -52,7 +52,7 @@
     margin-top: 60px;
 }
 
-.d_bottom2_content {
+#d_bottom2 .d_bottom2_content {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
