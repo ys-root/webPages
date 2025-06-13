@@ -24,7 +24,9 @@ body,html{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin: 40px auto;
+    margin: 40px 0 0 5%;
+    max-width: 30%;
+    
 }
 
 .direction .label div button{
