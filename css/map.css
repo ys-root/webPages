@@ -26,7 +26,7 @@ body,html{
     flex-direction: column;
     margin: 40px 0 0 5%;
     max-width: 30%;
-    
+    height: auto;
 }
 
 .direction .label div button{
@@ -51,6 +51,7 @@ body,html{
 
 .direction .map{
     max-width: 60%;
+    height: auto;
     margin-left: 15px;
 }
 
