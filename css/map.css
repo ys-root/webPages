@@ -48,6 +48,7 @@ body,html{
 }
 
 .direction .map{
+    max-width: 60%;
     margin-left: 15px;
 }
 
