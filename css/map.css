@@ -31,7 +31,7 @@ body,html{
 
 .direction .label div button{
     padding: 10px 20px; /* 按钮内边距 */
-    border: none; /* 去掉默认边框 */
+    border: 1px solid transparent; /* 去掉默认边框 */
     border-radius: 20px; /* 圆角 */
     background: linear-gradient(to bottom, #FEAC5E, #C779D0, #4BC0C8); /* 渐变背景 */
     color: white; /* 文字颜色 */
