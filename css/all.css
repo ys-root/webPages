@@ -69,6 +69,14 @@ a{
     margin-right: 2%;
 }
 
+.search-box:focus{
+     border: linear-gradient(
+        to right,
+        #ffd89b,
+        #19547b
+     );
+}
+
 #d_bottom2 {
     width: calc(100%-20%);
     height: 80px;
