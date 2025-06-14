@@ -68,7 +68,7 @@ a{
     margin-right: 2%;
 }
 
-.search-box:focus{
+.search-box:focus-visible{
      border: linear-gradient(
         to right,
         #ffd89b,
