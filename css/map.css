@@ -27,8 +27,6 @@ body,html{
     margin: 40px 0 0 5%;
     max-width: 80px;
     height: auto;
-    position: absolute;
-    left: 10%;
 }
 
 .direction .label div button{
