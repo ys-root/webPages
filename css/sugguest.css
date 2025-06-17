@@ -1,0 +1,48 @@
+/* 建议框容器 */
+.suggest-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* 建议框主体（重点加宽） */
+.suggest-box {
+    position: absolute;
+    left: 0;
+    padding: 15px;              /* 内边距增大，提升舒适度 */
+    width: 540px;               /* 建议框整体宽度设为540px */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    z-index: 1000;
+    display: none;
+}
+
+/* 文本框样式（匹配建议框宽度） */
+.suggest-box textarea {
+    width: 100%;                /* 文本框宽度占满建议框 */
+    min-height: 140px;          /* 高度同步增加 */
+    max-height: 300px;          /* 最大高度调整 */
+    padding: 15px 18px;         /* 内边距增大 */
+    font-size: 15px;            /* 字体大小略增 */
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 15px;        /* 与按钮间距增大 */
+    resize: vertical;
+}
+
+/* 提交按钮样式（调整尺寸匹配宽度） */
+.suggest-submit {
+    padding: 12px 24px;         /* 按钮尺寸增大 */
+    font-size: 15px;            /* 字体大小匹配文本框 */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+}
+
+.suggest-submit:hover {
+    background-color: #2980b9;
+}
