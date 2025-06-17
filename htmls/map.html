@@ -3,6 +3,7 @@
         <title>校园景观概览</title>
         <link rel="stylesheet" href="../css/all.css">
         <link rel="stylesheet" href="../css/map.css">
+        <script src="../Js/map.js"></script>
     </head>
   <body>
 		<div id="top_nav">
@@ -39,7 +40,28 @@
                 <p>Ps:点击按钮查看对应场景</p>
             </div>
             <div class="map">
-                <img src="#" alt="d-map">
+                <div class="slideshow-container">
+                    <!-- 轮播图图片 -->
+                    <div class="mySlides fade">
+                        <img src="../files/imgs/校园1.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../files/imgs/校园2.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../files/imgs/校园3.jpeg" style="width:100%">
+                    </div>
+                    <!-- 左右箭头 -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- 小圆点 -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </div>
         </div>
         <!-- 简介 -->
