@@ -22,7 +22,6 @@ body,html{
 .direction .label{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: column;
     margin: 40px 0 0 5%;
     max-width: 30%;
@@ -58,7 +57,7 @@ body,html{
 
 .direction .map img{
     width: 100%;
-    aspect-ratio: 9/16;
+    /* aspect-ratio: 9/16; */
     object-fit: cover;
 }
 
